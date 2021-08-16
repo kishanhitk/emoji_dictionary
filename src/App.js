@@ -9,7 +9,13 @@ const emojiDictionary = {
   "😋": "Yummy",
   "🙃": "Ajeeb Smile",
   "😂": "Hahahha..",
-  "😚": "Chummi"
+  "😚": "Chummi",
+  "🙏":"Namaste",
+  "🤯":"Gazab!",
+  "😭":"Rona",
+  "🐛":"Keeda(Bug)",
+  "👋":"Tamacha",
+  "😎":"Swag"
 };
 export default function App() {
   var emojiInDB = Object.keys(emojiDictionary);
