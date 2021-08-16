@@ -39,6 +39,7 @@ export default function App() {
     <div className="App">
       <h1>Welcome Inshaan</h1>
       <input onChange={emojiInputHandler} placeholder="Yahan emoji Daalo" style={{ fontSize: "4vh", padding: "3px" }} />
+      <div style={{ fontSize: "7vh", padding: "2px" }}>{userInput}</div>
       <div style={{ fontSize: "8vh", padding: "3px" }}>{meaning}</div>
       <h2>Isme se ek chuno:</h2>
       {emojiInDB.map((emoji) => {
